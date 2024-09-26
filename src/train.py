@@ -284,7 +284,7 @@ if __name__ == "__main__":
     parser.add_argument('--model_name', type=str, default='bert',
                         help="Model name: {bert, bertplustextrank, bertplusrandom, longformer, tobert}")
     parser.add_argument('--data', type=str, default='books',
-                        help="Dataset name: {eurlex, hyperpartisan, books, 20news}")
+                        help="Dataset name: {eurlex, books}")
     parser.add_argument('--batch_size', type=int, default = 2, help="Batch size")
     parser.add_argument('--lr', type=float, default='5e-5', required=False, help="Learning rate e.g. 0.005, 5e-05")
     parser.add_argument('--epochs', type=int, default=20, help="Number of epochs")
